@@ -1,6 +1,5 @@
 const AWS = require('aws-sdk');
 const S3 = new AWS.S3();
-const bucket = process.env["BUCKET"];
 
 exports.handler = async (event) => {
     
